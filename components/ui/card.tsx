@@ -5,7 +5,7 @@ children: ReactNode;
 className?: string;
 };
 
-export function Card({ children, className = "" }: CardProps) {
+export function Card({ children, className = "" }: CardProps): JSX.Element {
 return (
 <div className={rounded-2xl border p-4 ${className}}>
 {children}
@@ -18,7 +18,7 @@ children: ReactNode;
 className?: string;
 };
 
-export function CardContent({ children, className = "" }: CardContentProps) {
+export function CardContent({ children, className = "" }: CardContentProps): JSX.Element {
 return (
 <div className={text-gray-800 ${className}}>
 {children}
