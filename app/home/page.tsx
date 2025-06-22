@@ -1,0 +1,1 @@
+export default function Home() { return (<div className="p-8"><h1 className="text-4xl font-bold text-[#008792] mb-4">The SaaS Business Guide</h1><p>Your journey from SaaS idea to market-ready product starts here. Learn from The AI1 Company.</p></div>); }

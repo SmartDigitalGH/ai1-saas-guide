@@ -1,0 +1,1 @@
+export default function Curriculum() { return (<div className="p-8"><h1 className="text-3xl font-bold text-[#008792] mb-4">Course Curriculum</h1><p>Explore all 6 modules inside The SaaS Business Guide.</p></div>); }

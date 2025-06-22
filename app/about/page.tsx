@@ -1,0 +1,1 @@
+export default function About() { return (<div className="p-8"><h1 className="text-3xl font-bold text-[#008792] mb-4">About The AI1 Company</h1><p>We build AI-powered SaaS from idea to scale.</p></div>); }
